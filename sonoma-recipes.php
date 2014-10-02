@@ -21,7 +21,7 @@
 
 
 // Register Custom Post Type
-function recipe_post_type() {
+function sonoma_recipe_post_type() {
 
 	$labels = array(
 		'name'                => 'Recipes',
@@ -67,7 +67,7 @@ add_action( 'init', 'recipe_post_type', 0 );
 
 
 // Register Custom Taxonomy
-function recipe_ingredient() {
+function sonoma_recipe_taxonomy_ingredient() {
 
 	$labels = array(
 		'name'                       => 'Recipe Ingredients',
@@ -104,7 +104,7 @@ add_action( 'init', 'recipe_ingredient', 0 );
 
 
 // Register Custom Taxonomy
-function recipe_collection() {
+function sonoma_recipe_taxonomy_collection() {
 
 	$labels = array(
 		'name'                       => 'Recipe Collections',
@@ -141,7 +141,7 @@ add_action( 'init', 'recipe_collection', 0 );
 
 
 // Register Custom Taxonomy
-function recipe_allergy() {
+function sonoma_recipe_taxonomy_allergy() {
 
 	$labels = array(
 		'name'                       => 'Recipe Allergies',
